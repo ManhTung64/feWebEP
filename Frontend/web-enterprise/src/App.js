@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 
 //import từ bên trong src
+
 import LoginForm from './components/public/login/LoginForm'
 import Homepage from './components/staff/homepage/Homepage'
 import Category from './components/QAM/category/Category'
@@ -11,7 +12,7 @@ import Home from "./components/QAM/home/Home"
 import ProfileQAM from "./components/QAM/profile/ProfileQAM"
 function App() {
   return (
-    <Router>
+    <Router basename="https://manhtung64.github.io/feWebEP/">
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/Homepage" element={<Homepage />} />
