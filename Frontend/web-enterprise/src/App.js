@@ -12,7 +12,7 @@ import Home from "./components/QAM/home/Home"
 import ProfileQAM from "./components/QAM/profile/ProfileQAM"
 function App() {
   return (
-    <Router basename="https://manhtung64.github.io/feWebEP/">
+    <Router basename="https://manhtung64.github.io/feWebEP">
       <Routes>
         <Route path="/" element={<LoginForm />} />
         <Route path="/Homepage" element={<Homepage />} />
