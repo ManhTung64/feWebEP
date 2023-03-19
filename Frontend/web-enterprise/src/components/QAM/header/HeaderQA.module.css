@@ -1,0 +1,53 @@
+
+.qamNavBar{
+    width: 910px ;
+    height: 135px;
+    /* background-color: #ff4081; */
+    position: relative;
+}
+.name{
+    margin: 3.5% 0 0 38px;
+    color: gray;
+
+}
+.searchContainer {
+    width: 23%;
+    height: 30%;
+    background-color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:  -2%  0 0 43%;
+}
+
+.searchContainer input[type="text"] {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #ff4081;
+}
+
+.downloadZip{
+    margin:  -4.25%  0 0 69.5%;
+}
+
+.btnDownload{
+    border: 1px solid  #ff4081;
+    outline:  #ff4081;
+    border-radius: 7px;
+    cursor: pointer;
+    width: 110px;
+    height: 37px;
+    color:  #ff4081;
+}
+
+
+
+
+.qamLogout{
+    margin: -4.1% 0 0% 85.5%;
+    color: gray;
+} 

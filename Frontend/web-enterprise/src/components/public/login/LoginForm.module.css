@@ -1,0 +1,83 @@
+.loginWrapper {
+  font-family: "Roboto", sans-serif;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  background-image: url(https://images.unsplash.com/photo-1497294815431-9365093b7331?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1950&amp;q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.loginContainer {
+  width: 370px;
+  height: 400px;
+  background-color: white;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.loginText {
+  color: #ff4081;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  margin-top: 9%;
+}
+
+.formGroup {
+  position: relative;
+  font-size: 15px;
+  color: #666;
+  margin: 9%;
+}
+
+.formControl {
+  width: 100%;
+  position: relative;
+  z-index: 3;
+  height: 35px;
+  background: none;
+  border: none;
+  padding: 7px;
+  transition: 0.3s;
+  border-bottom: 1px solid #777;
+  color: #555;
+}
+
+.rememberme {
+  margin: 8% 0 0 7%;
+}
+
+.formCheckInput {
+  margin-left: -7%;
+}
+
+.lbRemember {
+  margin-left: 2%;
+}
+
+.loginBtnWrapper {
+  text-align: center;
+}
+
+.loginBtn {
+  background: #fff;
+  padding: 5px;
+  width: 37%;
+  /* height: 5%; */
+  border: 1px solid #ff4081;
+  margin-top: -2%;
+  cursor: pointer;
+  transition: 0.1s;
+  box-shadow: 0 50px #ff4081 inset;
+  color: #ffffff;
+}
+
+.forgotpass {
+  text-align: center;
+  margin-top: 5%;
+}

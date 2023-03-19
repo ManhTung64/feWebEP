@@ -1,0 +1,214 @@
+.categoryWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+   background-color:   #e3effa;
+}
+
+
+.cateContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.infomationWrapper{
+    width: 57%;
+    height: 13%;
+    background-color: rgb(241, 81, 108) ;
+    box-shadow:0  5px 6px 8px  rgba(155, 154, 154, 0.1);
+    margin: -33% 0 0 5.5%; 
+    border-radius: 10px;
+    z-index: 2; 
+    
+}
+
+.categoryName {
+    display: left;
+    font-size: 22px;
+    color: #fff;
+    padding: 3% 8%;
+    font-weight: bold;
+}
+
+.iconAdd{
+    margin: -4.5% 0 0 67%;
+}
+
+
+.iconEdit {
+    color: gray;
+    margin-left: 80%;
+    margin-top: -8%;
+    width: 29%;
+    cursor: pointer;   
+}
+
+.iconDelete {
+    color: red;
+    margin: -4.5% 0% 0% 92%;
+    cursor: pointer;
+
+}
+
+.tbCategory{
+    width: 62%;
+    height: 50%;
+    background-color:whitesmoke;
+    border-radius: 16px;
+    margin: 4.5% 0 0 3%;
+    z-index: 1;
+}
+
+
+.tiletb{
+    color: gray;
+}
+
+
+
+/* hhff */
+.otherCategoriesWrapper {
+    background-color: whitesmoke;
+    width: 30%;
+    height: 79%;
+    margin-top: -7.7%;
+    margin-left: 68.8%;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.labelList{
+    text-align: center;
+    padding: 6%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.otherCategoriesWrapper ul {
+    margin: 4%  ;
+    list-style: none;
+}
+
+.otherCategoriesWrapper li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border: 5px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.otherCategoriesWrapper li:hover {
+cursor: pointer;
+background-color: rgb(241, 81, 108);    
+}
+
+
+
+
+/*  */
+.categoryModal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.categoryModalContent {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.categoryClose {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -4%;
+}
+
+.categoryClose:hover,
+.categoryClose:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}  
+
+.cateTitle{
+    text-align: center;  
+    padding: 7%;  
+    margin: -5.5% 0 0 0;
+    width: 100%;
+    height: 25%;
+    background-color: rgb(244, 82, 109);
+    box-shadow:0  8px 10px 8px  rgba(228, 20, 20, 0.1);
+    border-radius: 8px  ;
+    color: white;
+
+}
+
+.formAdd{
+    width: 80% ;
+    height: 80%;
+    /* background-color: aqua; */
+    margin: 5%  6% 5% 9%;
+    /* border-radius: 5px; */
+}
+
+.inputCate{
+    padding: 3%;
+}
+
+.ipTitle{
+    margin: 7% 0 0 -12%;
+    width: 127%;
+    height: 38px;
+    border-radius:8px ;
+    border: 1px solid pink;
+    padding: 3%;
+
+}
+
+.ipDes{
+    margin: 2% 0 0 -12%;
+    width: 127%;
+    border-radius:8px ;
+    border: 1px solid pink;
+    padding: 3%;
+}
+.ipStatus{
+    margin: 2% 0 0 -12%;
+    width: 127%;
+    height: 38px;
+    border-radius:8px ;
+    border: 1px solid pink;
+    padding: 3%;
+    
+}
+.btnAddCate{
+    width: 86%;
+    height: 39px;
+    margin: 3% 0 0 7%;
+    background-color: pink;
+    border-radius: 6px;
+    border: 1px solid pink;
+    cursor: pointer;
+    box-shadow:  5px 8x 8px  rgba(44, 43, 43, 0.1);
+
+}
+
+

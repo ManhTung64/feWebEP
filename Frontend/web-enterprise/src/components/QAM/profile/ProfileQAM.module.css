@@ -1,0 +1,237 @@
+.profileQam{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;   
+   background-color:  #e3effa;
+}
+
+
+.proContainer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: auto;
+    /* display: flex; */
+}
+
+
+
+.proTop{
+    margin-top: -2%;
+    height: 100%;
+    width: 98%;
+    float: left;
+}
+
+
+/* .proTop:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 20.3%;
+    left: 3%;
+    height: 55%;
+    width: 94%;
+    border-radius: 15px;
+    background-color: rgb(203, 40, 40);
+    opacity: 0.5;
+    float: left;
+  } */
+
+  .imgTop{
+    width: 96%;
+    height: 55% ;
+    margin-left: 3%;
+    border-radius: 15px;
+    /* display: block; */
+    /* z-index: 1; */
+
+
+}
+
+  .proBody{
+    width: 89%;
+    height: 80%;
+    margin-left: 5.5%;
+    margin-top: -36%;
+    border-radius: 15px;
+    background-color: white;
+    /* box-shadow: 4px 4px 4px rgb(162, 164, 164); */
+    float: left;
+    z-index: 3;
+}
+
+.bodyTop{
+    width: 98%;
+    height: 24%;
+    /* margin-top: 2%; */
+    /* margin-top: 2%; */
+    /* background-color: aqua; */
+    /* position: relative; */
+}
+.QamAvt{
+    width: 11.5%;
+    height: 90%;
+    /* background-color: black; */
+    margin-left:3%;
+    margin-top: 2.5%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgb(162, 164, 164);
+}
+
+.QamImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    /* display: inline; */
+}
+
+.QamName{
+    margin:  -10% 0 0 17%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #344767;
+}
+
+.inforBoby{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* background-color: rgb(137, 16, 16) ; */
+
+
+}
+.inforQam{
+    width: 41%;
+    /* background-color: rgb(209, 96, 96) ; */
+    margin-left: 4.5%;
+    margin-top: 2%;
+}
+.flatformSetting{
+    color: #344767;
+    
+}
+.fTilte{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* trai?\ */
+.account{
+    display: block ;
+}
+
+/* phai */
+.flatformSetting i{
+    margin-left: 15%;
+    cursor: pointer;
+}
+
+.flatformSetting i::after, ::before{
+    box-sizing: border-box;
+    
+}
+
+.QamName{
+    display: block;
+}
+
+.infor{
+    font-size: 14px;
+    margin-left: -20%;
+    margin-top: 14%;
+}
+
+.NameAcc{
+    display: block;
+    margin-top: 7%;
+}
+.informationQAM{
+    display: block;
+}
+
+/* modalEdit */
+.EditProfile {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    width: 65%;
+    height: 90%;
+    border-radius: 15px;
+    position: relative;
+}
+
+.modalEditProfile {
+    display: flex;
+    margin: 4%;
+    list-style: none;
+}
+
+/* Trai */
+.avtEdit{
+    margin-top: 7%;
+}
+
+.imgEditProfile {
+    border-radius: 50%;
+}
+
+.changeAvt{
+    margin: 5% 0 0 12%;
+}
+
+
+/* phai */
+
+.modalEdit {
+    width: 100%;
+    height: 100%;
+    margin-left: 4% ;
+}
+
+.modalName {
+    margin-top: -2%;
+    height: 10%;
+}
+
+.inputModalProfile {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+
+.formEdit{
+    margin-top: 3.5%;
+}
+
+
+.inputModalProfileGender {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+}
+
+
+
+.btnSubmitCancel {
+    display: flex;
+    margin-left: 30%;
+}
+
+.btnSubmit {
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10%;
+
+}
